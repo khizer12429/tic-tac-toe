@@ -1,0 +1,108 @@
+   body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    background-image: url('./images/back.jpg');
+  }
+  /* first msg */
+  .first span{
+    font-size: 4vw;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: #4f3791;
+    text-shadow: 2px 2px 8px red;
+  }
+  /* seconed */
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .second p {
+    border-radius: 20px;
+    background-color: #8d0e23;
+    font-size: 2.5vw;
+     
+  }
+  /* container */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* main box */
+  .main_box{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 150px;
+  }
+  .box{
+    background-color: #444444f6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border: 8px solid black;
+  }
+  .box:hover{
+    background-color: #4f3791;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+  }
+  /* reset */
+  .reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reset button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 30px;
+    text-shadow: 2px 2px 8px red;
+  }
+  .reset button:hover{
+    background-color: #4f3791;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  /* last msg */
+  .last_msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .last_msg p{
+    font-size: 3vw;
+    background-color: #8d0e23;
+    border-radius: 20px;
+  }
+  @media (max-width: 800px) {
+    .first span{
+      font-size: 9vw;
+    }
+    .reset button{
+      font-size: 4.5vw;
+    }
+    .last_msg p{
+      font-size: 6vw;
+    }
+    .second p {
+      font-size: 6vw;
+    }
+
+  }
+  
+
+  
